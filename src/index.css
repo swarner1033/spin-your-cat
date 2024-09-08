@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -10,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 a {
   font-weight: 500;
@@ -26,12 +29,18 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color: #aedcff;
+  background-color: #8FA3EE;
 }
+
+
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: 'Lemon', serif;
 }
+
+
 
 button {
   border-radius: 8px;
