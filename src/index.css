@@ -40,6 +40,11 @@ body {
   height: 260px;
   width: 260px;
   text-align: center;
+  cursor: pointer;
+  box-shadow: 0 3px 16px rgb(54, 54, 54); 
+  /* rgba(0, 0, 0, 0,.3); */
+  cursor: url(/static/images/paw-cursor.svg), auto;
+  /* transition: box-shadow 0.3s ease; */
 }
 
 
@@ -62,7 +67,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #64ff9d;
+  border-color: #ff6464;
 }
 button:focus,
 button:focus- sible {
