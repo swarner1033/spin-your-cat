@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+.circle {
+  border-radius: 50%;
+  font-family: 'Lemon', serif;
+  font-size: 3.2em;
+  line-height: 1.1;
+  height: 260px;
+  width: 260px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 3px 16px rgb(54, 54, 54); 
+  /* rgba(0, 0, 0, 0,.3); */
+  cursor: url(/static/images/paw-cursor.svg), auto;
+  /* transition: box-shadow 0.3s ease; */
+}
+
+.wiggle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; /* Adjust width as needed */
+  height: 15%;
+  background-color: #FFCBCB ; /* Color of the semi-circle */
+  border-top-left-radius: 100vw;
+  border-top-right-radius: 100vw;
+}
